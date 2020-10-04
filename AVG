@@ -1,0 +1,9 @@
+fun main(){
+  val = numarr = doubleArrayOf(45.3,8936.01,0939,3.91)
+  var sum = 0.0
+  
+  for (num in numarr){
+    sum+=num
+  }
+  println($(sum/numarr.size))
+}
